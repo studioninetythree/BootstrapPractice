@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bootstrap Practical</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/override.css">
+    <script src="scripts/jquery-1.11.2.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/scroll.js"></script>
+</head>
+<body>
+    <div id="main-navbar" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="" class="navbar-brand">ninetythree</a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" onmousedown="scrollTo('page-one');">Home</a></li>
+                    <li><a href="#" onmousedown="scrollTo('page-two');">About</a></li>
+                    <li><a href="#" onmousedown="scrollTo('page-three');">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="page-one" class="banner default">
+        <div class="jumbotron home-banner">
+            <div class="page-header text-center">
+                <h1>Welcome</h1>
+                <div class="container">
+                    <p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                    <div class="btn btn-lg btn-info">
+                        <a href="" onclick="return false" onmousedown="scrollTo('page-two')"> Enter </a>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+        <div class="container">
+            <div class="panel panel-default col-lg-4 text-center">
+                <div class="panel-body">
+                    <div class="panel-heading">
+                        <h3>Heading</h3>
+                    </div>
+                    <div class="panel-info">
+                        <p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default col-lg-4 text-center">
+                <div class="panel-body">
+                    <div class="panel-heading">
+                        <h3>Heading</h3>
+                    </div>
+                    <div class="panel-info">
+                        <p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default col-lg-4 text-center">
+                <div class="panel-body">
+                    <div class="panel-heading">
+                        <h3>Heading</h3>
+                    </div>
+                    <div class="panel-info">
+                        <p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="page-two" class="banner bad">
+        <div class="container">
+            <div class="page-header text-center">
+                <h2>Header Two</h2>
+            </div>
+        </div>
+    </div>
+    <div id="page-three" class="banner good">
+        <div class="container">
+            <div class="page-header text-center">
+                <h2>Header Three</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
